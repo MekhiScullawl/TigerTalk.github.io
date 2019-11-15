@@ -27,6 +27,7 @@
   height: 50px;
   background-color: rgb(0,0,0);
 }
+/* All this code was copy and pasted from a previous project. I have to wait, but if it works, I will change it so it's Tiger Talk */
 <nav id="main-nav" role="navigation">
       <ul>
         <li><a href="https://ualr.edu" target="_blank" title="Visit UA Little Rock Homepage">About</a></li>
@@ -34,6 +35,28 @@
         <li><a href="http://www.csszengarden.com" target="_blank">Explore Articles</a></li>
       </ul>
     </nav>
+.header.primary nav{
+width:960px;
+margin:20px auto;
+}
+.nav ul{
+display:flex;
+flex-direction:row;
+justify-content:center;
+}
+.nav ul li{
+list-style-type: none;
+width:33%;
+}
+.nav ul li a{
+color:white;
+text-decoration:none;
+background-color:#505050;
+background-color:#rgba(80 80 80 0.6);
+border-radius:60px;
+padding:8px 16px;
+}
+/* End of copy and paste */
 body {
     background-color: #FFFFFF;
     //background-color: rgb(190,158,99);
@@ -91,7 +114,7 @@ body {
     <div class="headText" align="center"><b><em>Tiger Talk</em></b></div>
 </div>
     <img class="picture headerPic" src="Mightysquirrel.png" width="150px" height="164px">
-<div class="topnav">
+
 	<!--will make table here -->
 
 
