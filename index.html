@@ -27,36 +27,37 @@
   height: 50px;
   background-color: rgb(0,0,0);
 }
-/* All this code was copy and pasted from a previous project. I have to wait, but if it works, I will change it so it's Tiger Talk */
-<nav id="main-nav" role="navigation">
-      <ul>
-        <li><a href="https://ualr.edu" target="_blank" title="Visit UA Little Rock Homepage">About</a></li>
-        <li><a href="#">Creators</a></li>
-        <li><a href="http://www.csszengarden.com" target="_blank">Explore Articles</a></li>
-      </ul>
-    </nav>
-.header.primary nav{
-width:960px;
-margin:20px auto;
+.topnav {
+  overflow: hidden;
+  background-color: rgb(190,158,99);
+  border-width: medium;
+  borderColor: rgb(0,0,0);
+  align: center;
+  height: 40px;
+  width: 100%;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
 }
-.nav ul{
-display:flex;
-flex-direction:row;
-justify-content:center;
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(0,0,0);
+  text-decoration: none;
+  align: center;
+  list-style-type: none;
+  width: 25%;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
 }
-.nav ul li{
-list-style-type: none;
-width:33%;
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(190,158,99);
+  color: white;
 }
-.nav ul li a{
-color:white;
-text-decoration:none;
-background-color:#505050;
-background-color:#rgba(80 80 80 0.6);
-border-radius:60px;
-padding:8px 16px;
-}
-/* End of copy and paste */
+
 body {
     background-color: #FFFFFF;
     //background-color: rgb(190,158,99);
